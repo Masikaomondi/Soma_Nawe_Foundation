@@ -259,4 +259,59 @@ width: 10%;
 }
 /*===End of Stories==*/
 
+/*==Projects Section==*/
+.project-container{
+    background: #136d01;
+    position: relative;
+    overflow: hidden;
 
+}
+.donation{
+    background: #7ff767;
+    color: black;
+    padding: 1px 1.5px;
+    position: absolute;
+    right: 0;
+    top: 70%;
+    transform: translateX(110%);
+    transition: all .2s ease-in-out;
+}
+.donation:hover{
+    color:#000;
+}
+.project-container:hover .donation{
+    transform: translateX(0%);
+}
+.outline{
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px)translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    position: relative;
+}
+.outline:before{
+    content: '';
+    position: absolute;
+    border:#fff solid 4px;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    opacity: 0;
+    transition-duration: 0.3s;
+    transition-property: opacity;
+}
+
+.outline:hover:before,
+.outline:focus:before,
+.outline:active:before{
+    opacity: 1;
+}
+.grow{
+    display: inline-block;
+    vertical-align: middle;
+    transform:perspective(1px)translateZ(0);
+    box-shadow: 0 0 10px #7ff767;
+
+}
+/*==End of Projects Section==*/
