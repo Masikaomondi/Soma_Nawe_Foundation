@@ -312,6 +312,63 @@ width: 10%;
     vertical-align: middle;
     transform:perspective(1px)translateZ(0);
     box-shadow: 0 0 10px #7ff767;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+
+}
+.grow:hover,
+.grow:focus,
+.grow:active{
+    box-shadow: 0 10px 10px 5px #7ff767;
+    transform: scale(1.1);
 
 }
 /*==End of Projects Section==*/
+
+/*==Team Section==*/
+.team{
+    background: #fff;
+    padding: 60px 0 30px 0;
+}
+
+.team .team-1{
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.team .team-1 .pic{
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.team .team-1 img{
+    transition: all ease-in-out 0.4s;
+}
+
+.team .team-1:hover img{
+    transform: scale(1.1);
+}
+
+.team .team-1 .team-info{
+    position: absolute;
+    background: linear-gradient(360deg,#b3f19b 0%,rgba(187,240,1520.9)35%rgba(0,59,37,0.8)100%);
+    padding: 15px 0;
+    border-radius: 4px;
+}
+
+.team .team-1 h4{
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.team .team-1 h4:after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+
+}
+/*==End Of Team Section==*/
