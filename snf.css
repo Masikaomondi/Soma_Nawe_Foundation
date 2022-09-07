@@ -389,5 +389,22 @@ width: 10%;
 
 .team .team-1 .social a{
     transition: color 0.3s;
+    color: #01290d;
+}
+
+.team .team-1 .social a:hover{
+    color: blue;
+}
+
+.team .team-1 .social i{
+    font-size: 16px;
+    margin: 0 2px;
+
+}
+
+@media(max-width:992px){
+    .team .team-1{
+        margin-bottom: 100px;
+    }
 }
 /*==End Of Team Section==*/
