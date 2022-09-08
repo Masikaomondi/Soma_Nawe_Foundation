@@ -408,3 +408,41 @@ width: 10%;
     }
 }
 /*==End Of Team Section==*/
+
+/*==Start of Donation Section==*/
+.donation-form .input-field .input-group{
+    width: 100%;
+    border: 1px solid #053001;
+    border-radius: 7px;
+    padding: 5px 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+
+}
+
+.donation-form .input-field .input-group .input-group-text{
+    font-size: 16px;
+    background: transparent;
+    border: 0;
+    font-weight: bold;
+
+}
+
+.donation-form .input-field .input-group .form-control{
+    transition: border-color.15s ease-in-out, box-shadow .15s ease-in-out;
+    border-bottom: 0;
+    border-top: 0;
+    border-radius: 0;
+    border-right: 0;
+    padding: 0 0 0 25px;
+    height: 50px;
+    font-size: 16px;
+    color: black;
+}
+
+.donation-form .input-field .input-group .form-control:placeholder{
+    font-size: 16px;
+    color: #7a7b7c;
+    font-weight: bold;
+
+}
+/*==End of Donation Section==*/
